@@ -24,6 +24,6 @@ client.Configuration.set_default(configuration)
 client_api = client.CoreV1Api()
 
 cm={
-    "name": "deekasha"
+    "name": "your_name"
 }
 create_secret({} , cm , client_api)
