@@ -10,9 +10,9 @@
 
 `pip install kubernetes`
 
-For Daemonset, we use AppsV1Api class from client module.
+For SEcrets, we use AppsV1Api class from client module.
 
-For creating Daemonset on local cluster e.g minikube we use following command:
+For creating Secrets on local cluster e.g minikube we use following command:
 
 `config. load_kube_config()`
 
@@ -39,10 +39,10 @@ cluster_details={
 
 ### Running the File:
 ```
-python3 create_daemonset.py
+python3 create_secrets.py
 ```
 
 ### Check the Daemonset:
 ```
-kubectl get daemonset
+kubectl get secret
 ```
