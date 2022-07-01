@@ -10,7 +10,7 @@
 
 `pip install kubernetes`
 
-For SEcrets, we use AppsV1Api class from client module.
+For Secrets, we use AppsV1Api class from client module.
 
 For creating Secrets on local cluster e.g minikube we use following command:
 
