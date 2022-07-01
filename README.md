@@ -22,20 +22,6 @@ For creating Secrets on local cluster e.g minikube we use following command:
 
 We will use here the Bearer Token which enable requests to authenticate using an access key.
 
-In create_secret.py file there are functions for creating secrets:
-
-1. Create daemonset
-
-In this we have to pass the namespace in which we will create daemonset:
-namespace="default"
-
-Give your cluster details:
-```
-cluster_details={
-        "bearer_token":"Your_cluster_bearer_token",
-        "api_server_endpoint":"Your_cluster_IP"
-    }
-```
 
 ### Running the File:
 ```
