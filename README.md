@@ -24,9 +24,9 @@ We will use here the Bearer Token which enable requests to authenticate using an
 
 In create_secret.py file there are functions for creating secrets:
 
-1. Create daemonset
+1. Create secrets
 
-In this we have to pass the namespace in which we will create daemonset:
+In this we have to pass the namespace in which we will create secret:
 namespace="default"
 
 Give your cluster details:
@@ -39,10 +39,10 @@ cluster_details={
 
 ### Running the File:
 ```
-python3 create_daemonset.py
+python3 Delete_Secret.py
 ```
 
 ### Check the Daemonset:
 ```
-kubectl get daemonset
+kubectl get secrets
 ```
