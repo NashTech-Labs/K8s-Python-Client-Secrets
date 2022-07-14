@@ -108,8 +108,8 @@ def delete_secret(cluster_details,k8s_object_name=None,namespace="default"):
 
 if __name__ == '__main__':
     cluster_details={
-        "bearer_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IkczOElWT0tTN25ya2UwaTVmNVdlUjJGcUhuVWtzVXZJM2FSMHlwVzEtWWcifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImFwaS1zZXJ2aWNlLWFjY291bnQtdG9rZW4tbXBueHMiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiYXBpLXNlcnZpY2UtYWNjb3VudCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjM4MzRmYzgxLWI5ZjAtNDI4Mi04NjQwLTJjOTU5MTkxMDRlOCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmFwaS1zZXJ2aWNlLWFjY291bnQifQ.EtfAZcTZHrYlrrWG0AlTAiXrda4qd-VedwxmHQapiofw-coPifCo9QV7b-o-fvTEhNTcUhHDGS93VEe9Ihebn_scebo2CimReG-_S1yKrG16TTZUXaDC6LfLMh-0ftBHbSia3rIVX2MGtwL8lB-Tlelwb92GWlbWuOv0Ryce9iQupmKbRZzCyaDWh12--QswJqXAhCtI4CeeUw0nuy5_dETo3LFxIWFSt0081LVgfHCS3pzdjQhIoHJnzeqc2o4Ezmh8a2sV4g9P7CfmcCXRMFu3WXzAWymw7oXsrT07sIo4_6dJt_Ub9kWAJCA5_D7euPjE4FkIiA_cwugPKiMNng",
-        "api_server_endpoint":"https://34.135.164.96"
+        "bearer_token":"Your_Bearer_Token",
+        "api_server_endpoint":"Your_API"
     }
 
     #create_secret(cluster_details,"default")
