@@ -10,9 +10,9 @@
 
 `pip install kubernetes`
 
-For secret, we use AppsV1Api class from client module.
+For Secret, we use AppsV1Api class from client module.
 
-For creating secret on local cluster e.g minikube we use following command:
+For creating Secret on local cluster e.g minikube we use following command:
 
 `config. load_kube_config()`
 
@@ -22,9 +22,9 @@ For creating secret on local cluster e.g minikube we use following command:
 
 We will use here the Bearer Token which enable requests to authenticate using an access key.
 
-In create_secret.py file there are functions for creating secrets:
+In Update_Delete_Secret.py file:
 
-1. Create secrets
+1. Create Secret
 
 In this we have to pass the namespace in which we will create secret:
 namespace="default"
@@ -39,10 +39,10 @@ cluster_details={
 
 ### Running the File:
 ```
-python3 Delete_Secret.py
+python3 Update_Delete_Secret.py
 ```
 
-### Check the Daemonset:
+### Check the Secret:
 ```
-kubectl get secrets
+kubectl get secret
 ```
